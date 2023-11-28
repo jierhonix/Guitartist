@@ -1,0 +1,287 @@
+#title {
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2023/09/best-acoustic-guitars.jpg?w=1581&h=1054&crop=1);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.container-fluid {
+  padding: 0 15% 9%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  text-shadow: -3px 3px 3px black;
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.htext {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 4rem;
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 15%;
+}
+
+
+@media (max-width: 1028px) {
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+}
+
+.navigation {
+  background: linear-gradient(180deg, black, transparent);
+  margin-bottom: 60px;
+  padding: 0 5% 20px;
+}
+
+.goto-song {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.tincat {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.instruments {
+  background-color: transparent;
+}
+.instruments button {
+  color: whitesmoke;
+  padding: 1rem;
+}
+@media (max-width: 1100px) {
+  .form-control {
+    max-width: 120px;
+  }
+}
+@media (max-width: 992px) {
+  .form-control {
+    max-width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .tincat {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Guitartist Features */
+#g-feature {
+  text-align: center;
+  background-color: #1b1c1e;
+  color: whitesmoke;
+  padding: 8rem 0;
+}
+
+#g-feature img {
+  padding-bottom: 2rem;
+}
+/*
+.fas {
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+*/
+.fontf {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.pf {
+  color: grey;
+  width: 60%;
+  margin: auto;
+}
+
+.forthefeatures {
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+
+/*###### Chords #######*/
+
+#chords{
+  background-image: url(https://i.pinimg.com/564x/8e/b5/e0/8eb5e01f702765e180500d40c7792356.jpg);
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 100px 15%;
+  text-align: center;
+}
+
+.text-shadow {
+  padding-top: 15%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.padding-column {
+  padding: 2% 3%;
+}
+
+.carousel-item {
+  padding: 0 15% 5%;
+}
+
+/* Songs Sections */
+
+#songs {
+  text-align: center;
+  background-color: #1b1c1e;
+  color: whitesmoke;
+  padding: 100px 10%;
+}
+
+.album {
+  width: 400px;
+  height: 250px;
+  background-image: url(https://i.pinimg.com/564x/64/21/e3/6421e3dc41fd3d75082c506eb4f31891.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.Schord {
+  width: 500px;
+  margin: auto;
+}
+.Schord img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .disc {
+    display: flex;
+    flex-direction: column;
+  }
+  .album {
+    width: 100%;
+  }
+  .Schord {
+    width: 100%;
+  }
+  .carousel-item {
+    padding: 0 0;
+  }
+  .text-shadow {
+    font-size: 40px;
+    padding-top: 60px;
+  }
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+
+/* Call to Action */
+
+#cta {
+text-align: center;
+padding: 9% 19%;
+background-image: url(https://i.pinimg.com/564x/e0/5f/05/e05f053a52344a14f93c91edc3c0230b.jpg);
+background-position: top;
+background-size: cover;
+}
+
+
+.ctah3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-shadow: -3px 3px 5px black;
+}
+
+@media (max-width: 768px) {
+
+  .ctah3 {
+    font-size: 2rem;
+  }
+}
+
+.ctabtn {
+ margin-top: 5%;
+ margin-left: 2%;
+}
+
+
+/* Footer */
+
+
+#footer {
+  background-color: #1b1c1e;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.copyright {
+  color: whitesmoke;
+}
+
+
+.footericon {
+  margin-left: 1%;
+  padding-bottom:2%;
+  color: whitesmoke;
+}
